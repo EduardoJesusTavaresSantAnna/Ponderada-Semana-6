@@ -1,7 +1,7 @@
 # Ponderada-Semana-6
 
 # Questões objetivas
-#1) Considerando a execução do código abaixo, indique a alternativa correta e justifique sua resposta.
+## 1) Considerando a execução do código abaixo, indique a alternativa correta e justifique sua resposta.
 ```javascript
 console.log(x);
 var x = 5;
@@ -16,7 +16,7 @@ c) A saída será undefined seguido de undefined
 
 d) A saída será erro em ambas as linhas que utilizam console.log
 
-# Resposta - 1
+## Resposta - 1
 **a) A saída será undefined seguido de erro**
 
 Justificativa:
