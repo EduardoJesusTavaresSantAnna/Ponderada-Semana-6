@@ -25,7 +25,7 @@ Justificativa:
  A variável y foi declarada por “let” o que faz com que ela não seja “elevada” e tratada como variável antes da leitura do “console.log(y)”, dessa maneira, por não ser identificada nenhuma variável ele segue como um erro por não haver nada sendo declarado.
  _____
 
-**2) O seguinte código JavaScript tem um erro que impede sua execução correta. Analise e indique a opção que melhor corrige o problema. Justifique sua resposta.**
+## 2) O seguinte código JavaScript tem um erro que impede sua execução correta. Analise e indique a opção que melhor corrige o problema. Justifique sua resposta.
 
 ```javascript
 function soma(a, b) {
