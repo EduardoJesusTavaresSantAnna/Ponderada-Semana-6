@@ -45,6 +45,13 @@ c) Substituir if (a || b === 0) por if (a && b === 0)
 
 d) Remover completamente a verificação if (a || b === 0)
 
+## Resposta - 2
+**b) Substituir if (a || b === 0) por if (a === 0 && b === 0)**
+
+Justificativa:
+
+ A alternativa que responde de forma mais adqueda a questão seria a letra b). Visto que, dessa maneira apenas quando calculamos a soma de 0 + 0 teria esse resultado de "Erro: número inválido", assim, mesmo se a soma ocorrer com um dos argumentos dessa função seja 0.
+ ____
 ______
 **3) Ao executar esse código, qual será a saída no console? Indique a alternativa correta e justifique sua resposta.**
 ```javascript
