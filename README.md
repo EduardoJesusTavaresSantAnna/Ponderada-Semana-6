@@ -23,6 +23,7 @@ Justificativa:
 
  A variável x é declarada por um “var” que é, quando o código escrito em java script é ativado eleva essa variável para ser lida, entretanto, não é efetuado o mesmo com relação ao valor. Assim, a variável x não atribui a ela nenhum valor, resultando em um “undefined”.
  A variável y foi declarada por “let” o que faz com que ela não seja “elevada” e tratada como variável antes da leitura do “console.log(y)”, dessa maneira, por não ser identificada nenhuma variável ele segue como um erro por não haver nada sendo declarado.
+ _____
 
 **2) O seguinte código JavaScript tem um erro que impede sua execução correta. Analise e indique a opção que melhor corrige o problema. Justifique sua resposta.**
 
