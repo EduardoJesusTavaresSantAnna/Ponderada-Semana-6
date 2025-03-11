@@ -1,7 +1,7 @@
 # Ponderada-Semana-6
 
 # Questões objetivas
-**1) Considerando a execução do código abaixo, indique a alternativa correta e justifique sua resposta.**
+#1) Considerando a execução do código abaixo, indique a alternativa correta e justifique sua resposta.
 ```javascript
 console.log(x);
 var x = 5;
