@@ -130,6 +130,14 @@ b) ["banana", "abacaxi", "manga"]
 c) ["banana", "abacaxi", "manga", "laranja"]
 
 d) ["banana", "maçã", "uva", "abacaxi", "manga"]
+
+## Resposta - 5
+**c) ["banana", "abacaxi", "manga", "laranja"]**
+
+Justificativa:
+
+ Após o array ser declarado, o método "splice" adiciona ou remove elementos desse array. No caso deste código, esse método está adicionando elementos, no qual o primeiro digíto, no caso "1" diz a partir de qual índice os novos elementos entraram, e o segundo, no caso "2", a quantidade de elementos já existemtes no array que serão substituidos. Acarretando na resposta.
+ 
 ______
 **6) Abaixo há duas afirmações sobre herança em JavaScript. Indique a alternativa correta e justifique sua resposta**
 
