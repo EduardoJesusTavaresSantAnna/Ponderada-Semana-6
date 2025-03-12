@@ -106,6 +106,14 @@ b) 6
 c) 18
 
 d) 24
+
+## Resposta - 4
+**d) 24**
+
+Justificativa:
+
+ Esse é o resultado pois, ao utilizar o ".map" ele multiplica todos os números da lista por 2, resultando em um array [2, 4, 6, 8, 10]. Em seguida, com o ".filter", ele mantem apenas os resultados maiores que 5, dessa forma cria o seguinte array: [6, 8, 10]. Dessa forma, o ".reduce" executa uma soma dos valores que ali permaneceram, assim, resultando no calculo: 6 + 8 + 10 = 24.
+ 
 ______
 **5) Qual será o conteúdo do array lista após a execução do código? Indique a alternativa correta e justifique sua resposta.**
 
