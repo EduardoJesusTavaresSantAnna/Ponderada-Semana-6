@@ -152,6 +152,14 @@ b) As duas afirmações são verdadeiras, mas a segunda não justifica a primeir
 c) A primeira afirmação é verdadeira, e a segunda é falsa.
 
 d) A primeira afirmação é falsa, e a segunda é verdadeira.
+
+## Resposta - 6
+**a) As duas afirmações são verdadeiras, e a segunda justifica a primeira.**
+
+Justificativa:
+
+ A segunda afirmativa explica a primeira quando, explica sobre o uso da palavra "extends". Dessa forma deixa claro como funciona a herança das classes e como não há necessidade de repetir os metodos abordados na classe anterior, ou classe mãe para classe filha.
+ 
 ______
 **7) Dado o seguinte código. Indique a alternativa correta e justifique sua resposta.**
 
@@ -195,6 +203,13 @@ c) Apenas II é verdadeira.
 
 d) Apenas I é verdadeira.
 
+## Resposta - 7
+**a) As duas afirmações são verdadeiras, e a segunda justifica a primeira.**
+
+Justificativa:
+
+ As afirmações I e II são verdadeiras porque Funcionario herda de Pessoa e pode acessar nome e idade, além de sobrepor o método apresentar() chamando super.apresentar(). A afirmação III é falsa, pois JavaScript suporta herança de classes com class e extends.
+
 ______
 
 **8) Analise as afirmações a seguir. Indique a alternativa correta e justifique sua resposta.**
@@ -210,6 +225,12 @@ c) A asserção é verdadeira e a razão é verdadeira, mas a razão não explic
 
 d) A asserção é verdadeira e a razão é verdadeira, e a razão explica a asserção.
 
+## Resposta - 8
+**b) A asserção é verdadeira e a razão é falsa.**
+
+Justificativa:
+
+ Em relação ao polimorfismo apresentado na "asserção" está correto, entretanto quanto a razão está incorreta, pois no JavaScript o polimorfismo é executado por via da herança e sobrescrita por métodos.
 ______
 
 # Questões dissertativas
