@@ -282,29 +282,38 @@ Explique como funciona a herança nesse contexto e como você implementaria a mo
 ## Resposta - 10
 
 ```javascript
+// Classe Produto com atributos nome e preco
 class Produto {
   constructor(nome, preco) { 
     this.nome = nome;
     this.preco = preco;
   }
 
+  // Método calcularDesconto() com desconto fixo de 10%
   calcularDesconto() {
-    let desconto = this.preco * 0.1; // Corrigido: usar 'this.preco'
-    return desconto;
+    return this.preco * 0.1;
   }
 }
 
+// Classe Livro que herda de Produto e modifica calcularDesconto()
 class Livro extends Produto {
   constructor(nome, preco, autor) {
     super(nome, preco);
     this.autor = autor;
   }
-   
+
+  // Método calcularDesconto() com desconto de 20%
   calcularDesconto() {
-    let desconto = this.preco * 0.2; // Corrigido: usar 'this.preco'
-    return desconto;
+    return this.preco * 0.2;
   }
 }
+
+// Criando um livro
+const livro = new Livro("Clean Code", 150, "Robert C. Martin");
+console.log(`Livro: ${livro.nome}`);
+console.log(`Autor: ${livro.autor}`);
+console.log(`Preço original: R$ ${livro.preco}`);
+console.log(`Preço final: R$ ${livro.preco - livro.calcularDesconto()}`);
 
 ```
 Herança é um mecanismo em que uma subclasse, no caso a classe "Livro",  herda atributos e métodos de outra superclasse, nesse caso case classe "Produto". Neste exemplo, a classe Livro herda da classe Produto. A subclasse Livro pode acessar e usar os atributos e métodos da superclasse Produto, e também pode modificar esses métodos, como fizemos com calcularDesconto().
