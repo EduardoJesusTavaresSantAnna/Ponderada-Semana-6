@@ -278,3 +278,33 @@ ______
 - Uma classe `Livro` que herda de `Produto` e modifica o método `calcularDesconto()`, aplicando um desconto de 20% no preço dos livros.
 
 Explique como funciona a herança nesse contexto e como você implementaria a modificação do método na classe `Livro`.
+
+## Resposta - 10
+
+```javascript
+class Produto {
+  constructor(nome, preco) { 
+    this.nome = nome;
+    this.preco = preco;
+  }
+
+  calcularDesconto() {
+    let desconto = this.preco * 0.1; // Corrigido: usar 'this.preco'
+    return desconto;
+  }
+}
+
+class Livro extends Produto {
+  constructor(nome, preco, autor) {
+    super(nome, preco);
+    this.autor = autor;
+  }
+   
+  calcularDesconto() {
+    let desconto = this.preco * 0.2; // Corrigido: usar 'this.preco'
+    return desconto;
+  }
+}
+
+```
+Herança é um mecanismo em que uma subclasse, no caso a classe "Livro",  herda atributos e métodos de outra superclasse, nesse caso case classe "Produto". Neste exemplo, a classe Livro herda da classe Produto. A subclasse Livro pode acessar e usar os atributos e métodos da superclasse Produto, e também pode modificar esses métodos, como fizemos com calcularDesconto().
