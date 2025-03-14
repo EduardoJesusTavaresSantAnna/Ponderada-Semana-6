@@ -246,6 +246,31 @@ function somaArray(numeros) {
 }
 console.log(somaArray([1, 2, 3, 4]));
 ```
+## Resposta - 9
+
+```javascript
+// Crie uma função que receba um array de números 
+// e retorne a soma de todos os elementos desse array multiplicados por 2. 
+function somaArray(numeros) {
+
+  // escreva seu código aqui
+  var soma = 0;
+
+  // Criando o for
+    for (i = 0; i < numeros.length; i++) {
+
+      // O valor atribuido a variavel soma é atualizado e usado para somar com o valor do array multiplicado por 2,
+      //até que o mesmo se chegue ao final do array.
+        soma = soma + 2*numeros[i];
+    }
+    
+    // Retornando o valor da variavel soma.
+    return soma;
+}
+
+console.log(somaArray([1, 2, 3, 4,]));
+```
+
 ______
 10) Crie um exemplo prático no qual você tenha duas classes:
 
